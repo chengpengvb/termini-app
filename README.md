@@ -181,7 +181,7 @@ This repository does **not** include source code. It is for product introduction
 
 ### 本机
 
-- 在 Termini 所在电脑上执行命令与多行脚本，需要时打开交互开终端；可列出、查看输出、向交互终端写入或结束本对话启动的进程。
+- 在 Termini 所在电脑上执行命令与多行脚本，需要时打开交互式终端；可列出、查看输出、向交互终端写入或结束本对话启动的进程。
 - 对白名单内的只读查询可免单独批准（列目录、看 git 历史、依赖树等）。
 - 跑一次性脚本（JavaScript / TypeScript / Python，移动端可用内置引擎）生成版式更完整的 Word / Excel / PPT / PDF，或做数据处理。
 
