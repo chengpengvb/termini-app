@@ -16,6 +16,56 @@ Connect protocols in one place. The agent runs on real devices; risky actions re
 - **Session-aware command hints** — suggestions from the current session and device dialect
 - **Inspection to routine** — you decide whether new observation points join the routine
 
+## What the AI can do
+
+In Deck chat, the agent uses built-in tools. Risky steps still wait for your confirmation.
+
+### Devices and remote work
+
+- Look up registered devices and groups, and keep a long-lived device profile (role, key paths, known pitfalls) for later chats.
+- Run the same non-interactive command on one or many devices over SSH, or over Telnet when SSH is unavailable (typical for some switches and routers).
+- Read and edit remote files over SFTP, and upload or download files or directories between this machine and registered devices.
+
+### This machine
+
+- Run commands and multi-line scripts on the host where Termini runs, including interactive TTY sessions when needed; list, read, write into, or stop processes started in the current chat.
+- Run approved read-only lookups without a separate approval (directory listings, git history, dependency trees, and similar).
+- Run one-shot scripts (JavaScript / TypeScript / Python, or the built-in engine on mobile) to produce richer Word / Excel / PPT / PDF or to transform data.
+
+### Code and local files
+
+- Map a repo’s structure, search by text or regex, find symbols, or ask in natural language where something lives.
+- Read and precisely edit local text files in batches.
+- Reuse earlier parse or OCR results for the same files or URLs, and page through long tool outputs that were truncated.
+
+### Documents and images
+
+- Read PDF, Word, and Excel; turn scanned or image-heavy PDFs into text with vision when needed.
+- Export Markdown to Word or PDF; write Excel sheets for tabular deliverables.
+- Transcribe local images with a vision model, or generate images from a text prompt when an image model is configured.
+
+### Desktop UI (this machine)
+
+- Inspect on-screen windows and controls, then click, type, and send shortcuts so the agent can drive desktop apps on this computer (not remote desktops).
+
+### Web
+
+- Search the web for timely information, and fetch the text of public pages when you ask for a specific URL.
+
+### Monitoring and discovery
+
+- Probe a device with SNMP (get / walk / suggest candidate OIDs).
+- Draft, create, list, and update formal monitoring indicators on devices so values can be collected on a schedule.
+
+### How the agent organizes work
+
+- Maintain a todo list for multi-step jobs; ask you clarifying questions with choices when only you can decide.
+- Spin up background sub-agents for parallel investigation, watch their progress, wait for them, or cancel them.
+- Save reusable skills, look them up later, and update them; search for additional tools when needed.
+- Start or stop background loops that re-run a tool on an interval and wake the chat on a match.
+- Read earlier chat history when context was truncated; send HTML email when you ask for a report or alert mail.
+- List and change app data tables when that is part of the task.
+
 ## Screenshots
 
 ### Android
@@ -118,6 +168,56 @@ This repository does **not** include source code. It is for product introduction
 - **RDP 同一工作区** — 与 SSH、Telnet、SFTP 并列
 - **按当前会话给命令提示** — 结合当前会话与设备命令方言
 - **巡检是否纳入例行** — 由你决定
+
+## AI 能做什么
+
+在 Deck 对话里，agent 会调用内置工具完成任务；会改动系统的步骤仍需你确认。
+
+### 设备与远程操作
+
+- 查询已登记的设备与分组，并维护设备档案（角色、关键路径、已知坑），供后续对话复用。
+- 通过 SSH 在一台或多台设备上执行同一条非交互命令；仅有 Telnet 的设备（常见于部分交换机、路由器）走 Telnet 批量执行。
+- 经 SFTP 读改远端文件，并在本机与已登记设备之间上传或下载文件/目录。
+
+### 本机
+
+- 在 Termini 所在电脑上执行命令与多行脚本，需要时打开交互开终端；可列出、查看输出、向交互终端写入或结束本对话启动的进程。
+- 对白名单内的只读查询可免单独批准（列目录、看 git 历史、依赖树等）。
+- 跑一次性脚本（JavaScript / TypeScript / Python，移动端可用内置引擎）生成版式更完整的 Word / Excel / PPT / PDF，或做数据处理。
+
+### 代码与本地文件
+
+- 生成仓库结构图、按文本/正则搜索、按符号名定位，或用自然语言做语义检索。
+- 批量读取与精确替换本地文本文件。
+- 复用同一文件或网址此前的解析/识别结果，并翻阅被截断的长工具输出全文。
+
+### 文档与图片
+
+- 读取 PDF、Word、Excel；扫描件或图片型 PDF 可走视觉识别成文。
+- 将 Markdown 导出为 Word 或 PDF；写入 Excel 表格作为交付物。
+- 用视觉模型转写本机图片；在已配置图片生成模型时，可按文字描述生成图片。
+
+### 本机桌面界面
+
+- 读取本机窗口与控件结构，再点击、输入、发送快捷键，驱动本机图形应用（不含远程桌面）。
+
+### 网络
+
+- 用搜索引擎查时效信息；在你指定公开网址时抓取页面正文。
+
+### 监控与发现
+
+- 对设备做 SNMP 探测（取值 / 遍历 / 按型号建议候选 OID）。
+- 起草、创建、查看与更新正式监控指标，便于按周期采集。
+
+### agent 如何组织工作
+
+- 维护多步任务待办；缺你才能提供的关键信息时，用带选项的问题向你确认。
+- 拉起后台子代理并行调查，查看进度、等待结束或取消。
+- 保存、查询与更新可复用技能；需要时搜索更多可用工具。
+- 启动或停止按间隔重复调用某工具的后台循环，命中条件时唤醒对话。
+- 在上下文被截断时回查更早会话内容；按你的要求发送 HTML 邮件简报或告警。
+- 在任务需要时列出并读写应用内数据表。
 
 ## 截图
 
