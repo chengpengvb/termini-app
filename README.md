@@ -66,6 +66,52 @@ In Deck chat, the agent uses built-in tools. Risky steps still wait for your con
 - Read earlier chat history when context was truncated; send HTML email when you ask for a report or alert mail.
 - List and change app data tables when that is part of the task.
 
+## Use cases
+
+### Batch server service deployment
+
+When you roll out the same service, package, or restart sequence across many hosts, run one non-interactive command over SSH—or Telnet on devices without SSH. Steps that change a system still wait for your approval before they land.
+
+### Troubleshooting
+
+When a service fails or misbehaves, investigate on the real devices: pull logs and configs, compare hosts, and keep SSH, Telnet, or RDP in the same workspace. Export the conclusion as Word, PDF, or Excel when you need a deliverable instead of a chat transcript.
+
+### Data migration
+
+When you move backups, configs, or datasets between this machine and registered servers, use SFTP in the current workspace to upload, download, read, and write. Fits cutovers and collecting evidence onto a local path.
+
+### Automated routine ops
+
+When the same check or fix repeats, reuse command snippets and skills, or start a background loop that re-runs a probe on an interval and wakes the chat on a match. Mutations still require confirmation.
+
+### Monitoring
+
+When you need scheduled collection, define formal monitoring indicators—including SNMP probes—so values are gathered on a schedule. If a reading looks wrong, continue in the same chat into live troubleshooting on those devices.
+
+### Pre-launch inspection and post-incident reports
+
+Before go-live or after an outage, run read-only checks across the relevant inventory and export a structured Word, PDF, or Excel report for the team.
+
+### Same configuration or command on many machines
+
+When a group of hosts should receive one config change or one command, execute it across the inventory in one pass. Similar commands can share a prefix approval; system-changing steps still wait.
+
+### Logs and configuration digs
+
+When you need to find a bad line in logs or compare configs, read remote files over SFTP and local files in one conversation—including network-device CLI sessions when that is how the device is managed.
+
+### Network device checks (e.g. Cisco IOS)
+
+When you only need a read-only look at a switch or router, use SSH or Telnet first. Any change stays behind the approval boundary until you confirm—useful before a maintenance window.
+
+### Certificate, key, and account changes
+
+When rotating certificates, keys, or accounts, prepare the steps in Deck and approve each system-changing action before it lands.
+
+### Handing conclusions to a colleague
+
+When the investigation is done, export the conclusion as Word, PDF, or Excel so a teammate gets a report rather than a chat history.
+
 ## Screenshots
 
 ### Android
@@ -218,6 +264,52 @@ This repository does **not** include source code. It is for product introduction
 - 启动或停止按间隔重复调用某工具的后台循环，命中条件时唤醒对话。
 - 在上下文被截断时回查更早会话内容；按你的要求发送 HTML 邮件简报或告警。
 - 在任务需要时列出并读写应用内数据表。
+
+## 使用场景
+
+### 批量服务器服务部署
+
+需要在多台主机上部署同一服务、安装同一软件包或执行同一套重启步骤时，通过 SSH 批量跑非交互命令；没有 SSH 的设备可走 Telnet。会改动系统的步骤仍需你批准后才落地。
+
+### 问题排除
+
+服务异常或行为不对时，在真实设备上查日志、读配置、对比主机，并在同一工作区里保留 SSH / Telnet / RDP。需要交给别人时，可导出 Word / PDF / Excel，而不是转发聊天记录。
+
+### 数据迁移
+
+在本机与已登记服务器之间搬备份、配置或数据集时，用当前工作区里的 SFTP 上传、下载、读写。适合割接，也适合把证据收到本机路径。
+
+### 自动化运维
+
+同一检查或修复反复出现时，复用命令片段与技能，或启动按间隔重复探测的后台循环，命中条件时唤醒对话。会改系统的动作仍要确认。
+
+### 监控
+
+需要按周期采集时，起草正式监控指标（含 SNMP 探测），让数值按计划采集。读数异常时，在同一对话里升级成对这些设备的现场排查。
+
+### 上线前巡检与故障后复盘报告
+
+上线前或故障后，对相关清单做只读检查，并导出结构化的 Word / PDF / Excel 报告给团队。
+
+### 多台机器同一配置或同一命令
+
+一组主机要做同一配置变更或跑同一条命令时，对清单一次执行。相似命令可按前缀共用批准；改系统的步骤仍等待确认。
+
+### 日志与配置排查
+
+要在日志里定位问题行或对比配置时，在同一对话里经 SFTP 读远端文件、读本机文件；网络设备若以 CLI 管理，也可在网络设备会话里做。
+
+### 网络设备检查（如 Cisco IOS）
+
+只需对交换机、路由器做只读查看时，先走 SSH 或 Telnet。变更仍停在批准边界之后，适合维护窗口前确认。
+
+### 证书、密钥与账号变更
+
+轮换证书、密钥或账号时，在 Deck 里准备步骤，并对每一项会改系统的动作先批准再落地。
+
+### 把排查结论交给同事
+
+排查结束后，把结论导出为 Word / PDF / Excel，让同事拿到的是报告，而不是聊天记录。
 
 ## 截图
 
