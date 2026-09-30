@@ -16,6 +16,48 @@ Connect protocols in one place. The agent runs on real devices; risky actions re
 - **Session-aware command hints** — suggestions from the current session and device dialect
 - **Inspection to routine** — you decide whether new observation points join the routine
 
+## Screenshots
+
+### Android
+
+![AI Deck](docs/screenshots/android/deck.png)
+
+AI Deck chat
+
+![SFTP](docs/screenshots/android/sftp.png)
+
+In-session SFTP file browser
+
+![RDP](docs/screenshots/android/rdp.png)
+
+RDP desktop in the same workspace
+
+![Snippets](docs/screenshots/android/snippets.png)
+
+Reusable command snippets
+
+### Windows
+
+![Hosts](docs/screenshots/windows/hosts.png)
+
+Host inventory dashboard
+
+![SSH terminal](docs/screenshots/windows/terminal-ssh.png)
+
+SSH session terminal
+
+![Network CLI](docs/screenshots/windows/terminal-network.png)
+
+Network device CLI session
+
+![RDP](docs/screenshots/windows/rdp.png)
+
+Windows RDP tab
+
+![AI Deck](docs/screenshots/windows/ai-deck.png)
+
+AI troubleshooting on real devices
+
 ## Download / Docs / Pricing / Sign in
 
 All product pages: [https://terminiapp.com/](https://terminiapp.com/)
@@ -60,6 +102,48 @@ This repository does **not** include source code. It is for product introduction
 - **RDP 同一工作区** — 与 SSH、Telnet、SFTP 并列
 - **按当前会话给命令提示** — 结合当前会话与设备命令方言
 - **巡检是否纳入例行** — 由你决定
+
+## 截图
+
+### Android
+
+![AI Deck](docs/screenshots/android/deck.png)
+
+AI Deck 对话
+
+![SFTP](docs/screenshots/android/sftp.png)
+
+会话内 SFTP 文件浏览
+
+![RDP](docs/screenshots/android/rdp.png)
+
+同一工作区内的 RDP
+
+![Snippets](docs/screenshots/android/snippets.png)
+
+命令片段
+
+### Windows
+
+![主机清单](docs/screenshots/windows/hosts.png)
+
+主机清单
+
+![SSH 终端](docs/screenshots/windows/terminal-ssh.png)
+
+SSH 会话终端
+
+![网络设备 CLI](docs/screenshots/windows/terminal-network.png)
+
+网络设备 CLI 会话
+
+![RDP](docs/screenshots/windows/rdp.png)
+
+Windows RDP 标签页
+
+![AI Deck](docs/screenshots/windows/ai-deck.png)
+
+在真实设备上做 AI 排障
 
 ## 下载 / 文档 / 定价 / 登录
 
