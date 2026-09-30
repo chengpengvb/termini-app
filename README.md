@@ -20,43 +20,59 @@ Connect protocols in one place. The agent runs on real devices; risky actions re
 
 ### Android
 
-![AI Deck](docs/screenshots/android/deck.png)
-
+<table>
+<tr>
+<td align="center">
+<img src="docs/screenshots/android/deck.png" width="280" alt="AI Deck"><br>
 AI Deck chat
-
-![SFTP](docs/screenshots/android/sftp.png)
-
+</td>
+<td align="center">
+<img src="docs/screenshots/android/sftp.png" width="280" alt="SFTP"><br>
 In-session SFTP file browser
-
-![RDP](docs/screenshots/android/rdp.png)
-
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="docs/screenshots/android/rdp.png" width="280" alt="RDP"><br>
 RDP desktop in the same workspace
-
-![Snippets](docs/screenshots/android/snippets.png)
-
+</td>
+<td align="center">
+<img src="docs/screenshots/android/snippets.png" width="280" alt="Snippets"><br>
 Reusable command snippets
+</td>
+</tr>
+</table>
 
 ### Windows
 
-![Hosts](docs/screenshots/windows/hosts.png)
-
+<table>
+<tr>
+<td align="center">
+<img src="docs/screenshots/windows/hosts.png" width="520" alt="Hosts"><br>
 Host inventory dashboard
-
-![SSH terminal](docs/screenshots/windows/terminal-ssh.png)
-
+</td>
+<td align="center">
+<img src="docs/screenshots/windows/terminal-ssh.png" width="520" alt="SSH terminal"><br>
 SSH session terminal
-
-![Network CLI](docs/screenshots/windows/terminal-network.png)
-
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="docs/screenshots/windows/terminal-network.png" width="520" alt="Network CLI"><br>
 Network device CLI session
-
-![RDP](docs/screenshots/windows/rdp.png)
-
+</td>
+<td align="center">
+<img src="docs/screenshots/windows/rdp.png" width="520" alt="RDP"><br>
 Windows RDP tab
-
-![AI Deck](docs/screenshots/windows/ai-deck.png)
-
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<img src="docs/screenshots/windows/ai-deck.png" width="520" alt="AI Deck"><br>
 AI troubleshooting on real devices
+</td>
+</tr>
+</table>
 
 ## Download / Docs / Pricing / Sign in
 
@@ -107,43 +123,59 @@ This repository does **not** include source code. It is for product introduction
 
 ### Android
 
-![AI Deck](docs/screenshots/android/deck.png)
-
+<table>
+<tr>
+<td align="center">
+<img src="docs/screenshots/android/deck.png" width="280" alt="AI Deck"><br>
 AI Deck 对话
-
-![SFTP](docs/screenshots/android/sftp.png)
-
+</td>
+<td align="center">
+<img src="docs/screenshots/android/sftp.png" width="280" alt="SFTP"><br>
 会话内 SFTP 文件浏览
-
-![RDP](docs/screenshots/android/rdp.png)
-
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="docs/screenshots/android/rdp.png" width="280" alt="RDP"><br>
 同一工作区内的 RDP
-
-![Snippets](docs/screenshots/android/snippets.png)
-
+</td>
+<td align="center">
+<img src="docs/screenshots/android/snippets.png" width="280" alt="Snippets"><br>
 命令片段
+</td>
+</tr>
+</table>
 
 ### Windows
 
-![主机清单](docs/screenshots/windows/hosts.png)
-
+<table>
+<tr>
+<td align="center">
+<img src="docs/screenshots/windows/hosts.png" width="520" alt="主机清单"><br>
 主机清单
-
-![SSH 终端](docs/screenshots/windows/terminal-ssh.png)
-
+</td>
+<td align="center">
+<img src="docs/screenshots/windows/terminal-ssh.png" width="520" alt="SSH 终端"><br>
 SSH 会话终端
-
-![网络设备 CLI](docs/screenshots/windows/terminal-network.png)
-
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="docs/screenshots/windows/terminal-network.png" width="520" alt="网络设备 CLI"><br>
 网络设备 CLI 会话
-
-![RDP](docs/screenshots/windows/rdp.png)
-
+</td>
+<td align="center">
+<img src="docs/screenshots/windows/rdp.png" width="520" alt="RDP"><br>
 Windows RDP 标签页
-
-![AI Deck](docs/screenshots/windows/ai-deck.png)
-
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<img src="docs/screenshots/windows/ai-deck.png" width="520" alt="AI Deck"><br>
 在真实设备上做 AI 排障
+</td>
+</tr>
+</table>
 
 ## 下载 / 文档 / 定价 / 登录
 
